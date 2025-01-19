@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Profesjonalne portfolio z nowoczesnymi funkcjami i animacjami"
+    />
+    <title>Rozbudowane Portfolio</title>
+    <link rel="stylesheet" href="design.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Portfolio</div>
+      <nav>
+        <ul>
+          <li><a href="#about">O mnie</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Usługi</a></li>
+          <li><a href="#testimonials">Opinie</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-parallax">
+        <div class="parallax-layer layer1"></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="typing-effect">Witaj w moim portfolio!</h1>
+        <p class="hero-subtitle">
+          Tworzę nowoczesne i funkcjonalne strony internetowe
+        </p>
+        <div class="hero-buttons">
+          <a href="#portfolio" class="cta-button">Zobacz Projekty</a>
+          <a href="#contact" class="cta-button secondary">Skontaktuj się</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>O mnie</h2>
+      <p>
+        Jestem kreatywnym deweloperem webowym z pasją do budowania stron
+        internetowych, które łączą piękno i funkcjonalność.
+      </p>
+      <div class="counters">
+        <div class="counter">
+          <h3 data-target="50">0</h3>
+          <p>Zrealizowane projekty</p>
+        </div>
+        <div class="counter">
+          <h3 data-target="150">0</h3>
+          <p>Zadowoleni klienci</p>
+        </div>
+        <div class="counter">
+          <h3 data-target="5">0</h3>
+          <p>Lat doświadczenia</p>
+        </div>
+      </div>
+
+      <!-- Nowa sekcja kluczowych umiejętności -->
+      <div class="skills">
+        <h3>Moje umiejętności</h3>
+        <div class="skills-list">
+          <div class="skill">
+            <h4>HTML5</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="90"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <h4>CSS3</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="85"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <h4>JavaScript</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="80"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <h4>React</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="75"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <h4>Node.js</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="70"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nowa sekcja osiągnięć -->
+      <div class="achievements">
+        <h3>Osiągnięcia</h3>
+        <div class="achievement-list">
+          <div class="achievement">
+            <h4>
+              <i class="fas fa-award"></i> Certyfikat Full-Stack Developer
+            </h4>
+            <p>
+              Uzyskany w 2023 roku od renomowanej organizacji technologicznej.
+            </p>
+          </div>
+          <div class="achievement">
+            <h4>
+              <i class="fas fa-project-diagram"></i> 50+ Zrealizowanych
+              projektów
+            </h4>
+            <p>
+              Od małych stron internetowych po zaawansowane aplikacje webowe.
+            </p>
+          </div>
+          <div class="achievement">
+            <h4>
+              <i class="fas fa-microphone-alt"></i> Prelegent na konferencjach
+            </h4>
+            <p>Udział w międzynarodowych konferencjach technologicznych.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="services-background">
+        <div class="shape circle"></div>
+        <div class="shape circle2"></div>
+      </div>
+      <h2>Usługi</h2>
+      <p class="services-description">
+        Zapewniam kompleksowe usługi w zakresie tworzenia, projektowania i
+        optymalizacji stron internetowych. Sprawdź, jak mogę Ci pomóc!
+      </p>
+      <div class="service-items">
+        <div class="service-item">
+          <div class="service-card">
+            <!-- Przód karty -->
+            <div class="card-front">
+              <div class="service-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Tworzenie stron</h3>
+              <p>Tworzę responsywne i nowoczesne strony internetowe.</p>
+            </div>
+            <!-- Tył karty -->
+            <div class="card-back">
+              <h4>Co oferuję?</h4>
+              <ul>
+                <li><i class="fas fa-check"></i> Responsywne projekty</li>
+                <li><i class="fas fa-check"></i> Szybkość ładowania</li>
+                <li><i class="fas fa-check"></i> Optymalizacja pod SEO</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Druga karta -->
+        <div class="service-item">
+          <div class="service-card">
+            <div class="card-front">
+              <div class="service-icon">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <h3>UI/UX Design</h3>
+              <p>Projektuję intuicyjne i estetyczne interfejsy użytkownika.</p>
+            </div>
+            <div class="card-back">
+              <h4>Co oferuję?</h4>
+              <ul>
+                <li><i class="fas fa-check"></i> Przyjazne interfejsy</li>
+                <li><i class="fas fa-check"></i> Nowoczesne trendy</li>
+                <li><i class="fas fa-check"></i> Testy użytkownika</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Trzecia karta -->
+        <div class="service-item">
+          <div class="service-card">
+            <div class="card-front">
+              <div class="service-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3>SEO</h3>
+              <p>Poprawiam widoczność Twojej strony w wyszukiwarkach.</p>
+            </div>
+            <div class="card-back">
+              <h4>Co oferuję?</h4>
+              <ul>
+                <li><i class="fas fa-check"></i> Wyższy ranking</li>
+                <li><i class="fas fa-check"></i> Większy ruch</li>
+                <li><i class="fas fa-check"></i> Optymalizacja treści</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-background">
+        <div class="shape-por circle-por"></div>
+        <div class="shape-por diamond"></div>
+      </div>
+      <h2>Portfolio</h2>
+      <div class="filter-buttons">
+        <button class="active" onclick="filterPortfolio('all')">
+          Wszystkie
+        </button>
+        <button onclick="filterPortfolio('web')">Web Development</button>
+        <button onclick="filterPortfolio('design')">Design</button>
+        <button onclick="filterPortfolio('branding')">Branding</button>
+      </div>
+      <div class="portfolio-items">
+        <div
+          class="portfolio-item web"
+          data-bs-toggle="modal"
+          data-bs-target="#project1Modal"
+        >
+          <img src="./aplikacja.png" alt="Aplikacja" />
+          <div class="overlay">
+            <h3>Nowoczesna aplikacja mobilna</h3>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="project1Modal"
+          tabindex="-1"
+          aria-labelledby="project1ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="project1ModalLabel">
+                  Nowoczesna aplikacja mobilna
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Zamknij"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="./aplikacja.png" alt="Aplikacja" class="img-fluid" />
+                <p>
+                  Szczegółowy opis projektu. Możesz dodać dodatkowe informacje o
+                  projekcie takie jak technologia, funkcjonalności czy klienci.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="portfolio-item web"
+          data-bs-toggle="modal"
+          data-bs-target="#project2Modal"
+        >
+          <img src="./wizytowka.png" alt="Wizytówka" />
+          <div class="overlay">
+            <h3>Wizytówka</h3>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="project2Modal"
+          tabindex="-1"
+          aria-labelledby="project2ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="project2ModalLabel">Wizytówka</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Zamknij"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="./wizytowka.png" alt="Wizytówka" class="img-fluid" />
+                <p>
+                  Szczegółowy opis projektu. Możesz dodać dodatkowe informacje o
+                  projekcie takie jak technologia, funkcjonalności czy klienci.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="portfolio-item web"
+          data-bs-toggle="modal"
+          data-bs-target="#project3Modal"
+        >
+          <img src="./marka.png" alt="Marka" />
+          <div class="overlay">
+            <h3>Strona marki</h3>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="project3Modal"
+          tabindex="-1"
+          aria-labelledby="project3ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="project3ModalLabel">
+                  Strona marki
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Zamknij"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="./marka.png" alt="Marka" class="img-fluid" />
+                <p>
+                  Szczegółowy opis projektu. Możesz dodać dodatkowe informacje o
+                  projekcie takie jak technologia, funkcjonalności czy klienci.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <h2>Opinie</h2>
+      <p class="testimonials-description">Co mówią o mnie moi klienci?</p>
+
+      <div class="testimonial-slider">
+        <div class="testimonial-item">
+          <div class="client-photo">
+            <img src="./ceo.webp" alt="Klient 1" />
+          </div>
+          <p class="testimonial-text">
+            "Profesjonalna obsługa i świetne wyniki. Gorąco polecam!"
+          </p>
+          <h4>Anna Kowalska</h4>
+          <p class="client-info">CEO, Firma XYZ</p>
+          <div class="rating">★★★★★</div>
+        </div>
+        <div class="testimonial-item">
+          <div class="client-photo">
+            <img src="./PM.webp" alt="Klient 2" />
+          </div>
+          <p class="testimonial-text">
+            "Projekt zrealizowany perfekcyjnie, zgodnie z założeniami!"
+          </p>
+          <h4>Jan Nowak</h4>
+          <p class="client-info">Marketing Manager, Firma ABC</p>
+          <div class="rating">★★★★☆</div>
+        </div>
+        <div class="testimonial-item">
+          <div class="client-photo">
+            <img src="./freelancerka.webp" alt="Klient 3" />
+          </div>
+          <p class="testimonial-text">
+            "Jestem zachwycona współpracą! Polecam każdemu."
+          </p>
+          <h4>Katarzyna Zielińska</h4>
+          <p class="client-info">Freelancer</p>
+          <div class="rating">★★★★★</div>
+        </div>
+      </div>
+
+      <div class="slider-controls">
+        <button class="prev-slide">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+        <div class="dots-container"></div>
+        <button class="next-slide">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <h2>Najnowsze Artykuły</h2>
+      <p class="blog-description">
+        Bądź na bieżąco z naszymi najnowszymi artykułami.
+      </p>
+
+      <!-- Wyróżniony post -->
+      <div class="featured-post">
+        <img src="./blogW.webp" alt="Wyróżniony post" />
+        <div class="featured-content">
+          <h3>Wszystko, co musisz wiedzieć o UX/UI</h3>
+          <p>
+            Jak projektować intuicyjne i przyjazne dla użytkownika interfejsy?
+          </p>
+          <a href="#" class="read-more">Czytaj więcej</a>
+        </div>
+      </div>
+
+      <!-- Lista postów -->
+      <div class="blog-posts">
+        <div class="blog-post">
+          <img src="./blog1.webp" alt="Post 1" />
+          <div class="post-content">
+            <h3>
+              <a href="#">5 Najlepszych Frameworków Frontendowych w 2024</a>
+            </h3>
+            <p>Sprawdź, które frameworki są teraz najpopularniejsze...</p>
+            <div class="blog-footer">
+              <span class="date">12 stycznia 2024</span>
+              <div class="social-share">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-post">
+          <img src="./blog2.webp" alt="Post 2" />
+          <div class="post-content">
+            <h3><a href="#">Jak poprawić SEO na swojej stronie?</a></h3>
+            <p>
+              Poznaj najlepsze techniki pozycjonowania strony w
+              wyszukiwarkach...
+            </p>
+            <div class="blog-footer">
+              <span class="date">5 stycznia 2024</span>
+              <div class="social-share">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-post">
+          <img src="./blog3.webp" alt="Post 3" />
+          <div class="post-content">
+            <h3><a href="#">Trendy w Web Designie na 2024 rok</a></h3>
+            <p>
+              Jakie trendy zdominują świat projektowania stron internetowych?
+            </p>
+            <div class="blog-footer">
+              <span class="date">20 grudnia 2023</span>
+              <div class="social-share">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-pagination">
+        <button class="prev-page">❮ Poprzednia</button>
+        <button class="next-page">Następna ❯</button>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Skontaktuj się ze mną</h2>
+      <p class="contact-description">
+        Masz pytania? Skontaktuj się przez formularz lub bezpośrednio.
+      </p>
+
+      <div class="contact-wrapper">
+        <!-- Lewa strona - Mapa -->
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97704.25887099383!2d20.921112658141578!3d52.23285548578792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669b8c3151%3A0x4e60c70b2c2f1f4c!2sWarszawa!5e0!3m2!1spl!2spl!4v1708338232926"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+
+        <!-- Prawa strona - Formularz kontaktowy i dane kontaktowe -->
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Warszawa, Polska</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone-alt"></i>
+              <p><a href="tel:+48123456789">+48 123 456 789</a></p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <p>
+                <a href="mailto:kontakt@example.com">kontakt@example.com</a>
+              </p>
+            </div>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Twoje imię" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Twój e-mail"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Twoja wiadomość"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit" class="send-button">Wyślij wiadomość</button>
+            <div class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2025 Stworzone przez [Twoje Imię]. Wszystkie prawa zastrzeżone.
+      </p>
+      <a href="#about">O mnie</a> | <a href="#portfolio">Portfolio</a> |
+      <a href="#services">Usługi</a> | <a href="#testimonials">Opinie</a> |
+      <a href="#contact">Kontakt</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
