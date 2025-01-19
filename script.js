@@ -318,3 +318,25 @@ form.addEventListener("submit", function (event) {
     form.reset();
   }, 2000);
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+const backToTopButton = document.getElementById("backToTop");
+
+// Funkcja wyświetlająca lub ukrywająca przycisk po przewinięciu
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTopButton.classList.add("show");
+  } else {
+    backToTopButton.classList.remove("show");
+  }
+});
+
+// Płynne przewijanie do góry
+backToTopButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
